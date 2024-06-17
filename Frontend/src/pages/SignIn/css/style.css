@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #edecf3;
+}
+
+.container {
+  display: flex;
+  width: 900px; /* Ajustei a largura para acomodar a imagem e o formulário */
+  height: 515px;
+  margin: auto;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-and-image {
+  display: flex;
+  width: 102%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inspi {
+  margin-left: 150px;
+  margin-top: 13px;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 22px 0px 0px 22px; /* Ajustei a curvatura da imagem */
+  
+}
+
+.form {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  height: 100%;
+  border-radius: 0px 22px 22px 0px; /* Ajustei a curvatura do formulário */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login {
+  font-size: 38px;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-family: "Antic", sans-serif;
+  font-weight: bold;
+}
+
+.input_container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 18px;
+}
+
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+  margin-left: 40px;
+}
+
+.input_label {
+  font-size: 0.75rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.estatua {
+  max-width: 50%; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 33px 0px 0px 30px; /* Curvatura para o lado esquerdo */
+}
+
+.input_field {
+  width: 400px;
+  height: 40px;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 3px solid #000000;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  margin: auto;
+  margin-left: 40px;
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+
+.sign-in_btn {
+  width: 400px;
+  height: 54px;
+  border: 0;
+  background: #000000;
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-in_btn:hover {
+  background-color: rgb(39, 38, 38);
+}
+.conta{
+  color: black;
+}
+
+p {
+  font-weight: bold;
+  font-family: "Antic", sans-serif;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+a {
+  color: #f20530;
+  text-decoration: none;
+}
